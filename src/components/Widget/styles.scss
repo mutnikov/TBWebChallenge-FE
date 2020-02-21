@@ -1,0 +1,26 @@
+@import "../../variables";
+
+.widget-wrapper {
+  border-radius: 5px;
+  border: 2px solid $yellow;
+  height: 250px;
+  width: 300px;
+  text-decoration: none;
+}
+
+
+.widget-header {
+  background: $yellow;
+  padding: 20px 0;
+  text-decoration: none;
+  font-size: 20px;
+  color: $black;
+  text-align: center;
+}
+
+.widget-content {
+  background: $white;
+  opacity: 0.5;
+  height: calc(100% - 65px);
+  overflow: hidden;
+}

@@ -1,0 +1,41 @@
+@import "../../variables";
+.tasks-page-wrapper {
+    padding: 50px 0;
+}
+
+.tasks-page-header {
+  display: flex;
+  &__title {
+    color: $white;
+    font-size: 50px;
+  }
+}
+
+.tasks-page-body {
+  max-width: 1024px;
+  margin: 0 auto;
+  &__element {
+    margin: 50px 0;
+  }
+  &__plus {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    &__icon {
+      svg {
+        fill: $yellow;
+        height: 50px;
+        width: 50px;
+      }
+    }
+    &__new {
+      padding: 0 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      &__input {
+        width: 60%;
+      }
+    }
+  }
+}

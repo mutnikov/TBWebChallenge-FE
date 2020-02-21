@@ -1,0 +1,25 @@
+@import "../../variables";
+
+.input-wrapper {
+
+  min-width: 250px;
+  width: max-content;
+
+  input {
+    font-size: 25px;
+    width: 100%;
+    font-family: $main-font;
+    border: none;
+    border-bottom: 2px solid $white ;
+    background: transparent;
+    color: $white;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: $white;
+      opacity: 1;
+    }
+  }
+
+}

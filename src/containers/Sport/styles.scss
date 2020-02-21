@@ -1,0 +1,37 @@
+@import "../../variables";
+.sport-page-wrapper {
+    padding: 50px 0;
+}
+
+.sport-page-header {
+  display: flex;
+  &__title {
+    color: $white;
+    font-size: 50px;
+  }
+}
+
+.sport-page-body {
+  &__inputs-wrapper {
+    display: flex;
+    justify-content: center;
+    input {
+      font-size: 50px;
+    }
+  }
+  &__results-wrapper {
+    padding: 80px 40px;
+    &__result {
+      color: $white;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 560px) {
+    padding: 50px 10px;
+    &__results-wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}

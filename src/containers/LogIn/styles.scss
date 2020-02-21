@@ -1,0 +1,64 @@
+@import "../../variables";
+
+.login-page-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.data-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.login-title {
+  color: $white;
+  text-align: center;
+  font-size: 55px;
+  margin: 25px 0;
+}
+
+.inputs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (max-width: 560px) {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    & > * {
+      margin: 20px 0;
+    }
+  }
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.footer-wrapper {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-up-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: $white;
+  font-size: 30px;
+  margin-bottom: 50px;
+  a {
+    text-decoration: none;
+    color: $yellow;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+}

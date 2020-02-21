@@ -1,0 +1,43 @@
+{
+    "login.title": "Hackathon",
+    "login.login": "Login",
+    "login.email": "Email",
+    "login.password": "Password",
+    "login.sign_up.title": "New to the challenge?",
+    "login.sign_up.action": "Sign up",
+
+
+    "sign_up.title": "Hackathon",
+    "sign_up.sign_up": "Register",
+    "sign_up.email": "Email",
+    "sign_up.password": "Password",
+    "sign_up.user_name": "Username",
+    "sign_up.picture": "Add picture",
+    "sign_up.confirm_password": "Confirm Password",
+
+
+    "dashboard.title": "Good day Swapnil",
+
+
+    "news.title": "News",
+
+
+    "sport.title": "Sport",
+    "sport.input.placeholder": "Input team name",
+
+    "tasks.title": "Tasks",
+    "tasks.add": "Add",
+
+
+    "photos.title": "Photos",
+
+    "widget.weather.title": "Weather",
+    "widget.news.title": "News",
+    "widget.sport.title": "Sport",
+    "widget.photos.title": "Photos",
+    "widget.tasks.title": "Tasks",
+    "widget.clothes.title": "Clothes",
+
+    "no-data": "No data loaded",
+    "registred.success": "Registration success try to login"
+}

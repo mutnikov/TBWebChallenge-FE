@@ -1,0 +1,25 @@
+@import "variables";
+
+body {
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;
+  background: url('./assets/images/background.jpeg') no-repeat fixed;
+  font-family: $main-font;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1521px;
+  height: 100%;
+}
+
+.button-text {
+  font-family: $main-font;
+  text-align: center;
+  color: $black;
+  font-size: 20px;
+  font-weight: bold;
+}

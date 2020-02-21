@@ -1,0 +1,20 @@
+@import "../../variables";
+
+.row-wrapper {
+  display: flex;
+  min-height: 38px;
+  width: 100%;
+  & > * {
+    min-width: 100%;
+  }
+}
+
+.static-text-wrapper {
+  color: $white;
+  font-size: 25px;
+  border-bottom: 2px solid $white;
+}
+
+.checkbox {
+  margin-left: 10px;
+}

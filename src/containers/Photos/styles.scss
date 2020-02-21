@@ -1,0 +1,36 @@
+@import "../../variables";
+.photos-page-wrapper {
+  padding: 50px 0;
+  &__title {
+    font-size: 50px;
+    text-align: center;
+    color: $white
+  }
+
+  &__photos-wrapper {
+    max-width: 1233px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    &__image-uploader {
+      height: 300px;
+      width: 300px;
+    }
+
+    &__image {
+      height: 300px;
+      width: 300px;
+      border: 5px solid $yellow;
+      border-radius: 2px;
+    }
+  }
+}
+
+.wrapper {
+  padding: 50px;
+  @media (max-width: 560px) {
+    margin: 0;
+    padding: 15px;
+  }
+}
+
